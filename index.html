@@ -1,44 +1,398 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
-<style>
-html,body{
-    height: 100%;
-}
-body{
-   display: table; 
-   margin: 0 auto;
-   background:black;
-}
-.content{  
-    height: 100%;
-    display: table-cell;   
-    vertical-align: middle;
-    text-align: center;
-    margin: auto;
-    color: white;
-    font-family: 'Cormorant Garamond', serif;
-}
-p img {
-  height: 5em;
-  width: auto;
-}
-a{
-    color: white;
-}
-</style>
+<!doctype html>
+<html class="no-js" lang="zxx">
+
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>crio</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ishan Mitra">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>CRIO</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.svg" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
-<body>
-    <div class="content">
-        <p><img src="crioLogo.png" alt="crio"></p>
-        <h1 style="font-size:2.5em;">We are working hard building crio.</h1>
-        <p style="font-size:1.20em;">If you want to know more about us, <a href="mailto:contact@crioapp.com?Subject=What%20is%20crio%3F" target="_top">email us</a>.<br>
-        Follow us on <a href="https://www.instagram.com/madeoncrio/" target="_blank">instagram</a> for updates.</p>
+<body data-spy="scroll" data-target=".mainmenu-area">
+    <!-- Preloader-content -->
+    <div class="preloader">
+        <lottie-player 
+            src="https://assets1.lottiefiles.com/packages/lf20_8eitua.json" mode="normal" background="transparent"  speed="2"  style="width: 100px; height: 100px; margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" loop autoplay>
+        </lottie-player>
+        <!-- <span><i class="lnr lnr-sun"></i></span> -->
     </div>
+    <!-- MainMenu-Area -->
+    <nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo-small-hrz.svg" alt="Logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="primary_menu">
+                <ul class="nav navbar-nav mainmenu">
+                    <li class="active"><a href="#home_page">Home</a></li>
+                    <li><a href="#about_page">About</a></li>
+                    <li><a href="#features_page">Features</a></li>
+                    <li><a href="#contact_page">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- MainMenu-Area-End -->
+    <!-- Home-Area -->
+    <!-- start banner Area -->
+	<section class="home-area section-padding-top" id="#home_page" >
+		<div class="container" >
+			<div class="row d-flex align-items-center justify-content-between">
+				<div class="home-content wow fadeInUp col-lg-6 col-md-6">
+					<h1>
+						Your Marketing <br> Content Assistant
+					</h1>
+					<p>Create targeted content for your brand’s digital market, using our data driven platform.</p>
+					<div class="download-button d-flex flex-row justify-content-start">
+						<div class="buttons dark flex-row d-flex">
+							<i class="fa fa-android" aria-hidden="true"></i>
+							<div class="desc">
+								<!-- <a href="#"> -->
+									<p>
+										Coming soon on <br>
+										<span>Play Store</span>
+									</p>
+								<!-- </a> -->
+							</div>
+                        </div>
+                        <div class="buttons gray flex-row d-flex">
+							<i class="fa fa-play" aria-hidden="true"></i>
+							<div class="desc">
+								<a href="#">
+									<p>
+										Watch intro<br>
+										<span>Video</span>
+									</p>
+								</a>
+							</div>
+						</div>
+					</div>
+                </div>
+                <div class="banner-img">
+                    <img class="img-fluid" src="img/mockup/recommendations.png" alt="">
+                </div>
+            </div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+    <!-- Home-Area-End -->
+    <!-- About-Area -->
+    <section class="about-area section-padding" id="about_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-1">
+                    <div class="page-title text-center">
+                        <img src="img/crio-logo-about.svg" alt="About Logo">
+                        <div class="space-20"></div>
+                        <h5 class="title">About CRIO</h5>
+                        <div class="space-30"></div>
+                        <h3 class="subtitle">CRIO is the assistant you always wanted when you needed digital marketing content for your brand quickly.</h3>
+                        <!-- a solution for people who want to create beautiful and effective content for social media marketing, but don't have access to the resources needed to create them. It provides you with beautiful graphical content that is designed by a professional designer, who has provided you with pre-selected color and font options for the design.-->
+                        <div class="space-20"></div>
+                        <p>It provides you with beautiful and effective graphical content without needing any prior knowledge of designing and marketing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About-Area-End -->
+    <!-- Progress-Area -->
+    <section class="progress-area section-padding-bottom" id="progress_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="page-title section-padding">
+                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">How it works?</h5>
+                        <div class="space-10"></div>
+                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Content Creation</h3>
+                        <div class="space-20"></div>
+                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                            <p>By asking few simple questions, CRIO understands your brand's identity, and your content's target audiences and goals. You can also add your message and visuals before CRIO uses all this information to create the most beautiful and effective graphical content for your brand.</p>
+                        </div>
+                        <!-- <div class="space-50"></div>
+                        <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Learn More</a> -->
+                        <div class="space-30"></div>
+                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Content Targeting</h3>
+                        <div class="space-20"></div>
+                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                            <p>From industry research and testing data, CRIO finds the best suited designs for you. It gathers the contents, according to your audiences' likings from font size or colour combinations to symmetry or design style.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <figure class="mobile-video">
+                        <video autoplay loop muted><source src="img/media/walkthrough.mp4" type="video/mp4"></video>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Progress-Area-End -->
+    <!-- Feature-Area -->
+    <section class="feature-area section-padding" id="features_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="page-title text-center">
+                        <h5 class="title">Features</h5>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-pointer-up"></i>
+                        </div>
+                        <h4>Content Suggestions</h4>
+                        <p>Engage your audience frequently using content suggested to suit your brand</p>
+                    </div>
+                    <div class="space-60"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-picture"></i>
+                        </div>
+                        <h4>Curated Collection</h4>
+                        <p>Designs for your content are made by professionals to ensure its appeal</p>
+                    </div>
+                    <div class="space-60"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-layers"></i>
+                        </div>
+                        <h4>Consistent Content</h4>
+                        <p>Create similar content for any platform with ease</p>
+                    </div>
+                    <div class="space-60"></div>
+                </div>
+                <div class="hidden-xs hidden-sm col-md-4">
+                    <figure class="mobile-image">
+                        <img src="img/mockup/portfolio.png" alt="Feature Photo">
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-magnifier"></i>
+                        </div>
+                        <h4>Marketing Insights</h4>
+                        <p>Reach your audience effectively with the insights provided, like the time <!-- day, platform --> to post your content</p>
+                    </div>
+                    <div class="space-60"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-pencil"></i>
+                        </div>
+                        <h4>Customizable Designs</h4>
+                        <p>Modify designs' fonts, colors and photos without worrying about design</p>
+                    </div>
+                    <div class="space-60"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-rocket"></i>
+                        </div>
+                        <h4>Quick Results</h4>
+                        <p>Make high quality content for every need in seconds</p>
+                    </div>
+                    <div class="space-60"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature-Area-End -->
+    <!-- Content-Feature-Area-Starts -->
+    <section class="feature-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="page-title">
+                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Our Content</h5>
+                        <div class="space-10"></div>
+                        <h3 class="wow fadeInUp" data-wow-delay="0.4s">Create Stunning Content<br>Every Time for Anywhere</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>With a vast collection of designs made by professional designers, CRIO uses all your information to pick the best design from its collection for your brand.</p>
+                    </div>
+                    <div class="space-30"></div>
+                    <!-- <div class="space-50"></div>
+                    <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Learn More</a> -->
+                    <div class="gallery-slider wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="design-area gallery-slide">
+                            <div class="item"><img src="img/designs/design1.jpg" alt=""></div>
+                            <div class="item"><img src="img/designs/design2.jpg" alt=""></div>
+                            <div class="item"><img src="img/designs/design3.jpg" alt=""></div>
+                            <div class="item"><img src="img/designs/design4.jpg" alt=""></div>
+                            <div class="item"><img src="img/designs/design5.jpg" alt=""></div>
+                            <div class="item"><img src="img/designs/design6.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
+                    <div class="space-60 hidden visible-xs"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-clock"></i>
+                        </div>
+                        <h4>Automatic Suggestions</h4>
+                        <p>Use holiday and trending content suggested by CRIO for your audience to engage them.</p>
+                    </div>
+                    <div class="space-50"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-laptop-phone"></i>
+                        </div>
+                        <h4>Customizable Sandbox</h4>
+                        <p>Choose from designer recommended fonts, colors and/or images to customize your content according to you.</p>
+                    </div>
+                    <div class="space-50"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-cog"></i>
+                        </div>
+                        <h4>Multiple Compatibility</h4>
+                        <p>Make content for other media platforms from an existing content with a single tap.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content-Feature-Area-End -->
+    <!-- Subscribe-Form -->
+    <div class="subscribe-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="subscribe-form text-center">
+                        <h3 class="orange-color">Email Us for More Information</h3>
+                        <div class="space-20"></div>
+                        <form id="mc-form">
+                            <input type="email" class="control" placeholder="Enter your email" required="required" id="mc-email">
+                            <button class="bttn-white active" type="submit"><span class="lnr lnr-location"></span> Learn More</button>
+                            <label class="mt10" for="mc-email"></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe-Form-Area -->
+    <!-- Footer-Area -->
+    <footer class="footer-area" id="contact_page">
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-title text-center">
+                            <h5 class="title">Contact US</h5>
+                            <h3 class="dark-color">Find Us Below</h3>
+                            <div class="space-60"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="https://www.facebook.com/crioapp/" target="_blank"><div class="footer-box">
+                            <div class="box-icon">
+                                <span class="fa fa-facebook"></span>
+                            </div>
+                            <p>Facebook</p>
+                        </div>
+                        </a>
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="https://www.instagram.com/madeoncrio/" target="_blank"><div class="footer-box">
+                            <div class="box-icon">
+                                <span class="fa fa-instagram"></span>
+                            </div>
+                            <p>Instagram</p>
+                        </div>
+                        </a>
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <a href="mailto:info@crioapp.com"><div class="footer-box">
+                            <div class="box-icon">
+                                <span class="lnr lnr-envelope"></span>
+                            </div>
+                            <p>info@crioapp.com
+                            </p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-Bootom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-5">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="lnr lnr-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></span>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-7">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-Bootom-End -->
+    </footer>
+    <!-- Footer-Area-End -->
+    <!--Vendor-JS-->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/jquery-ui.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/ajaxchimp.js"></script>
+    <script src="js/scrollUp.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!--Main-active-JS-->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
