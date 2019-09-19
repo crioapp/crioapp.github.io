@@ -439,7 +439,7 @@ input:-webkit-autofill:focus {
 /*-- 7. Home-Area --*/
 
 .home-area {
-    background: url(img/home-banner-bg.jpf) center;
+    background: url(img/home-banner-bg.jpg) center;
     background-size: cover;}
     .home-area .banner-img {
       text-align: right; }
@@ -949,7 +949,7 @@ input:-webkit-autofill:focus {
 /*-- 17. Subscribe-Form --*/
 
 .subscribe-area {
-    background: url('img/subscribe-bg.jpf') no-repeat scroll center center / cover;
+    background: url('img/subscribe-bg.jpg') no-repeat scroll center center / cover;
 }
 
 .subscribe-form {
