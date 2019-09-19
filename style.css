@@ -312,6 +312,10 @@ input:-webkit-autofill:focus {
     background-color: #f5f6ff;
 }
 
+.orange-bg {
+    background-color: #dc6833;
+}
+
 /*-- 5. MainMenu-Area --*/
 
 .mainmenu-area {
