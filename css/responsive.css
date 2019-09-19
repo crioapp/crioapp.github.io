@@ -154,17 +154,25 @@
         padding: 15px 0;
     }
     .mainmenu-area:before {
-        opacity: 0.9;
+        opacity: 1;
+    }
+    .mainmenu-area .navbar-header {
+        margin-left: unset;
     }
     .mainmenu-area .navbar-toggle {
-        border: 1px solid #ffffff;
+        border: 1px solid #323232;
         border-radius: 1px;
     }
     .mainmenu-area .navbar-toggle .icon-bar {
-        background-color: #ffffff;
+        background-color: #323232;
         height: 2px;
         border-radius: 0;
     }
+    .mainmenu-area .navbar-brand img{
+        display: block;
+        margin: 0 auto;
+    }
+
     .mainmenu-area #primary_menu {
         overflow-y: auto;
         max-height: 80vh;
@@ -179,7 +187,7 @@
     .mainmenu-area #primary_menu ul.nav.navbar-nav li.active a,
     .mainmenu-area #primary_menu ul.nav.navbar-nav li a:hover {
         background-color: #ffffff;
-        color: #5e88fc;
+        color: #dc6833;
     }
     /*-- Home-Area --*/
     .home-area {

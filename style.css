@@ -55,7 +55,7 @@ a:focus,
 a:hover {
     text-decoration: none;
     outline: none;
-    color: #768ede;
+    color: #dc6833;
 }
 
 img {
@@ -320,7 +320,8 @@ input:-webkit-autofill:focus {
     top: 0;
     width: 100%;
     z-index: 9999;
-    padding: 20px 140px 15px 0;
+    padding-top: 20px ;
+    padding-bottom: 15px;
     background: transparent;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -359,7 +360,7 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area .right-button a {
-    color: rgb(255, 155, 0);
+    color: #ff9b00;
     padding: 10px 40px;
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0.3);
@@ -372,7 +373,7 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area .right-button a:hover {
     background-color: rgba(255, 255, 255, 1);
-    color: #768ede;
+    color: #ff9b00;
 }
 
 .mainmenu-area ul.mainmenu {
@@ -399,13 +400,12 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area ul.nav.navbar-nav li a:hover,
 .mainmenu-area ul.nav.navbar-nav li.active a {
-    border-bottom-color: rgb(50, 50, 50);
+    border-bottom-color: #323232;
 }
 
 .mainmenu-area .navbar-brand {
     height: auto;
-    margin-left: 120px;
-    padding: 0 15px;
+    padding: 0 15px 0 0;
 }
 
 .mainmenu-area .navbar-brand img {
@@ -560,10 +560,6 @@ input:-webkit-autofill:focus {
 .feature-area {
     color: #ffffff;
     background-color: rgb(220, 104, 51);
-    background-image: url('img/feature-bg.png');
-    background-position: bottom -120px center;
-    background-repeat: no-repeat;
-    background-size: auto 94%;
     margin-bottom: 142px;
 }
 
@@ -729,10 +725,9 @@ input:-webkit-autofill:focus {
 }
 
 .gallery-slide .item {
-    margin: auto;
-    padding-right: 10px;
+    margin: auto 5px auto 5px;
     overflow: hidden;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .gallery-slide .owl-controls {
@@ -973,6 +968,7 @@ input:-webkit-autofill:focus {
     padding: 15px 180px 15px 30px;
     border-radius: 100px;
     border: 1px solid #dc6833;
+    color: #dc6833;
 }
 
 .subscribe-form form .bttn-white {
@@ -1040,7 +1036,7 @@ input:-webkit-autofill:focus {
 
 .footer-bottom {
     padding: 20px 0;
-    background-color: #f5f6ff;
+    background-color: #fff;
     border-top: 1px solid #dc6833;
 }
 
@@ -1074,7 +1070,7 @@ input:-webkit-autofill:focus {
     text-align: center;
     line-height: 60px;
     font-size: 30px;
-    color: #dc6833;
+    color: #323232;
 }
 
 .preloader {
