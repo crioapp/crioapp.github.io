@@ -554,10 +554,13 @@ input:-webkit-autofill:focus {
     margin-bottom: 220px;
 }
 .progress-area  video {
-    width: 350px;
+    width: 100%;
     margin: 0 auto;
     display: block;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .progress-area  video {
+        width: 60%; } }
 
 /*-- 10. Feature-Area --*/
 
