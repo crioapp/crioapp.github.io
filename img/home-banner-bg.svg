@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="677.33mm" height="313.27mm" viewBox="0 0 1920 888">
+  <defs>
+    <linearGradient id="linear-gradient" x1="691.31" x2="2227.57" gradientTransform="translate(2233.6 -550.74) rotate(152.3)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#44f59a"/>
+      <stop offset="0.63" stop-color="#20c9de"/>
+      <stop offset="1" stop-color="#3a76ff"/>
+    </linearGradient>
+  </defs>
+  <title>Artboard 13 copy 16</title>
+  <rect x="518.1" y="-384.47" width="1333.19" height="768.94" rx="96.04" transform="translate(2233.6 550.74) rotate(-152.3)" fill="url(#linear-gradient)"/>
+</svg>
