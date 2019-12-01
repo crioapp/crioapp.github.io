@@ -160,8 +160,8 @@
         margin-left: unset;
     }
     .mainmenu-area .navbar-toggle {
-        border: 1px solid #323232;
-        border-radius: 1px;
+        border: 0px solid #FFFF;
+        border-radius: 0px;
     }
     .mainmenu-area .navbar-toggle .icon-bar {
         background-color: #323232;
