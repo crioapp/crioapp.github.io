@@ -81,19 +81,17 @@
 										Coming soon on <br>
 										<span>Play Store</span>
 									</p>
-								
 							</div>
                         </div>
                         <div class="buttons gray flex-row d-flex">
-							<i class="fa fa-play" aria-hidden="true"></i>
-							<div class="desc">
-								<a href="img/media/Intro.mp4">
-									<p>
-										Watch intro<br>
-										<span>Video</span>
-									</p>
-								</a>
-							</div>
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                                <div class="desc">
+                                        <a onclick="onVideoClick('img/media/Intro.mp4');"><p>
+                                        Watch intro<br>
+                                        <span>Video</span>
+                                    </p>
+                                </a>
+                                </div>
 						</div>
 					</div>
                 </div>
@@ -101,7 +99,8 @@
                     <img class="img-fluid" src="img/mockup/recommendations.png" alt="">
                 </div>
             </div>
-		</div>
+            <div id="video_popup" ></div>
+        </div>
 	</header>
 	<!-- End banner Area -->
     <!-- Home-Area-End -->
@@ -375,6 +374,33 @@
         <!-- Footer-Bootom-End -->
     </footer>
     <!-- Footer-Area-End -->
+    <script>
+    function onVideoClick(theLink) {
+        document.getElementById("video_popup").innerHTML = "<video autoplay muted loop id=\"video_player\"><source src=\""+theLink+"\" type=\"video/mp4\"></video>";
+        document.getElementById("video_popup").style.display="block";
+    } 
+
+    function onPopClick() {
+        document.getElementById("video_popup").style.display="none";
+        document.getElementById("video_popup").innerHTML = ""; 
+    }         
+
+    var element = document.getElementById("video_popup");
+
+    element.onclick = (function (onclick) {
+    return function(evt) {
+        // reference to event to pass argument properly
+        evt  = evt || event;
+
+        // onClick even still works in the DOM
+        if (onclick) {
+        onclick(evt);
+        }
+        // new code that will happen when you click only if you click on the background.
+        if (evt.target == element) { element.style.display="none"; } 
+    }
+    })(element.onclick);
+    </script>
     <!--Vendor-JS-->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/vendor/jquery-ui.js"></script>
