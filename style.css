@@ -65,7 +65,9 @@ img {
 }
 
 p{
-  font-family: "EB Garamond"
+  font-family: adobe-garamond-pro,serif;
+font-weight: 400;
+font-style: normal;
 }
 
 h1,
@@ -538,6 +540,7 @@ input:-webkit-autofill:focus {
         margin-top: 50px; } }
   .home-content p {
     font-size: 20px;
+    font-family: futura-pt,sans-serif;
     margin-bottom: 45px; }
 
 @media (max-width: 991px) {
@@ -605,7 +608,8 @@ input:-webkit-autofill:focus {
     color : #4756DF;
 }
 .about-area p{
-  font-size: 25px;
+  color: #30242A;
+  font-size: 18px;
 }
 
 /*-- 8. Progress-Area --*/
@@ -685,8 +689,10 @@ input:-webkit-autofill:focus {
 .sub-feature p{
   margin-top: 20px;
   line-height:1.2;
-  font-size: 30px;
-  font-family: "EB Garamond"
+  font-size: 24px;
+  font-family: adobe-garamond-pro,serif;
+font-weight: 400;
+font-style: normal;
 }
 
 /* FIX ME: Keep Image Centered */
@@ -697,8 +703,10 @@ input:-webkit-autofill:focus {
 /*-- Progress How it works --*/
 .progress-area li{
 margin-top: 40px;
-font-family: "EB Garamond";
-font-size:25px;}
+font-family: adobe-garamond-pro,serif;
+font-weight: 400;
+font-style: normal;;
+font-size:24px;}
 /*-- 11. Service-Box --*/
 
 .service-box {
