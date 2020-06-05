@@ -2,416 +2,379 @@
 <html class="no-js" lang="zxx">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Ishan Mitra">
-    <meta name="description" content="">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>CRIO</title>
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
-    <!-- Plugin-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/linearicons.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Main-Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+  <meta charset="utf-8">
+  <meta name="author" content="Ishan Mitra">
+  <meta name="description" content="">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>CRIO</title>
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+  <!-- Plugin-CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/linearicons.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Main-Stylesheets -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Futura Font-->
+  <link rel="stylesheet" href="https://use.typekit.net/tdy2yrj.css">
 
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".mainmenu-area">
-    <!-- Preloader-content -->
-    <div class="preloader">
-            <lottie-player 
-            src="https://assets1.lottiefiles.com/packages/lf20_8eitua.json" mode="normal" background="transparent"  speed="1"  style="width: 120px; height: 120px; margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" loop autoplay>
-        </lottie-player>
-        <!-- <span><i class="lnr lnr-sun"></i></span> -->
+  <!-- Preloader-content -->
+  <div class="preloader">
+    <lottie-player
+    src="https://assets1.lottiefiles.com/packages/lf20_8eitua.json" mode="normal" background="transparent"  speed="1"  style="width: 120px; height: 120px; margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" loop autoplay>
+  </lottie-player>
+
+  <!-- <span><i class="lnr lnr-sun"></i></span> -->
+</div>
+<!-- MainMenu-Area -->
+<nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/logo-small-hrz.svg" alt="Logo"></a>
     </div>
-    <!-- MainMenu-Area -->
-    <nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                <a class="navbar-brand" href="#"><img src="img/logo-small-hrz.svg" alt="Logo"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="primary_menu">
-                <ul class="nav navbar-nav mainmenu">
-                    <li class="active"><a href="#home_page">Home</a></li>
-                    <li><a href="#about_page">About</a></li>
-                    <li><a href="#features_page">Features</a></li>
-                    <li><a href="#contact_page">Contacts</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- MainMenu-Area-End -->
-    <!-- Home-Area -->
-    <!-- start banner Area -->
-	<header class="home-area section-padding-top" id="home_page">
-		<div class="container" >
-			<div class="row d-flex align-items-center justify-content-between">
-				<div class="home-content wow fadeInUp col-lg-6 col-md-6">
-					<h1>
-						Your Marketing <br> Content Assistant
-					</h1>
-					<p>Create targeted content for your brand’s digital market, using our data-driven platform.</p>
-					<div class="download-button d-flex flex-row justify-content-start">
-						<div class="buttons dark flex-row d-flex">
-							<i class="fa fa-android" aria-hidden="true"></i>
-							<div class="desc">
-								<!-- <a href="#"> -->
-									<p>
-										Coming soon on <br>
-										<span>Play Store</span>
-									</p>
-							</div>
-                        </div>
-                        <div class="buttons gray flex-row d-flex">
-                                <i class="fa fa-play" aria-hidden="true"></i>
-                                <div class="desc">
-                                        <a onclick="onVideoClick('img/media/Intro.mp4');"><p>
-                                        Watch intro<br>
-                                        <span>Video</span>
-                                    </p>
-                                </a>
-                                </div>
-						</div>
-					</div>
-                </div>
-                <div class="banner-img">
-                    <img class="img-fluid" src="img/mockup/recommendations.png" alt="">
-                </div>
-            </div>
-            <div id="video_popup" ></div>
-        </div>
-	</header>
-	<!-- End banner Area -->
-    <!-- Home-Area-End -->
-    <!-- About-Area -->
-    <section class="about-area section-padding" id="about_page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-10 col-md-offset-1">
-                    <div class="page-title text-center">
-                        <img src="img/crio-logo-about.svg" alt="About Logo">
-                        <div class="space-20"></div>
-                        <h5 class="title">About CRIO</h5>
-                        <div class="space-30"></div>
-                        <h3 class="subtitle">CRIO is the assistant you always wish, when you need effective digital marketing content for your brand in a snap</h3>
-                        <div class="space-20"></div>
-                        <p>With so much online content for everyone to consume, grabbing one of your audience's attention requires engaging with them at least twice a day with targeted content, which is quite expensive in time, effort and resources. <br> <br>For a fraction of the cost, CRIO helps you leverage professional design techniques and latest market research to make the most appealing content that resonates with your audience. Best of all, CRIO doesn't need you to have any prior knowledge of designing and marketing to grow your brand.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About-Area-End -->
-    <!-- Progress-Area -->
-    <section class="progress-area section-padding-bottom" id="progress_page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div class="page-title section-padding">
-                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">How it works?</h5>
-                        <div class="space-10"></div>
-                        <h3 class="blue-color wow fadeInUp" data-wow-delay="0.4s">Content Creation</h3>
-                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                            <p>From your responses to few simple questions, CRIO understands your brand's identity, and your content's target audiences and goals. You can also add your message and visuals that CRIO uses to create the most beautiful and effective graphical content for your brand.</p>
-                        </div>
-                        <div class="space-30"></div>
-                        <h3 class="blue-color wow fadeInUp" data-wow-delay="0.4s">Content Targeting</h3>
-                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                            <p>Consumers react differently to slightest change in shade of a color, thickness of a font and/or orientation of an image. CRIO identifies your consumer's preferences by using industry research and tested data to generates content for your brand that would garner the most favorable reaction from your audience.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <figure class="mobile-video">
-                        <video autoplay loop muted><source src="img/media/walkthrough.mp4" type="video/mp4"></video>
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Progress-Area-End -->
-    <div class="blue-bg">
-    <!-- Feature-Area -->
-    <section class="feature-area section-padding-top" id="features_page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                    <div class="page-title text-center">
-                        <h5 class="title">Features</h5>
-                        <div class="space-60"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="box-icon">
-                            <i class="lnr lnr-pointer-up"></i>
-                        </div>
-                        <h4>Content Suggestions</h4>
-                        <p>Engage your audience frequently using suggested content to best suit your brand</p>
-                    </div>
-                    <div class="space-60"></div>
-                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="box-icon">
-                            <i class="lnr lnr-picture"></i>
-                        </div>
-                        <h4>Curated Collection</h4>
-                        <p>Designs for your content are made by professionals to ensure its appeal</p>
-                    </div>
-                    <div class="space-60"></div>
-                    <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="box-icon">
-                            <i class="lnr lnr-layers"></i>
-                        </div>
-                        <h4>Consistent Content</h4>
-                        <p>Create similar content for any platform with ease</p>
-                    </div>
-                    <div class="space-60"></div>
-                </div>
-                <div class="hidden-xs hidden-sm col-md-4">
-                    <figure class="mobile-image">
-                        <img src="img/mockup/portfolio.png" alt="Feature Photo">
-                    </figure>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="box-icon">
-                            <i class="lnr lnr-magnifier"></i>
-                        </div>
-                        <h4>Marketing Insights</h4>
-                        <p>Reach your audience effectively with the insights provided, like the time <!-- day, platform --> to post your content</p>
-                    </div>
-                    <div class="space-60"></div>
-                    <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="box-icon">
-                            <i class="lnr lnr-pencil"></i>
-                        </div>
-                        <h4>Customizable Designs</h4>
-                        <p>Modify your contents' font, color and image without compromising its appeal</p>
-                    </div>
-                    <div class="space-60"></div>
-                    <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="box-icon">
-                            <i class="lnr lnr-rocket"></i>
-                        </div>
-                        <h4>Quick Results</h4>
-                        <p>Make high quality content for every need in seconds</p>
-                    </div>
-                    <div class="space-60"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Feature-Area-End -->
-    <!-- Content-Feature-Area-Starts -->
-    <section class="content-feature-area section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6">
-                        <div class="page-title">
-                            <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Our Content</h5>
-                            <div class="space-10"></div>
-                            <h3 class="wow fadeInUp" data-wow-delay="0.4s">Create Stunning Content<br>Every Time for Anywhere</h3>
-                        </div>
-                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                            <p>From a vast collection of designs made by professional designers, CRIO picks the best suited design for your brand on the basis of information provided by you.</p>
-                        </div>
-                        <div class="space-30"></div>
-                        <!-- <div class="space-50"></div>
-                        <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Learn More</a> -->
-                        <div class="gallery-slider wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="design-area gallery-slide">
-                                <div class="item"><img src="img/designs/design1.jpg" alt=""></div>
-                                <div class="item"><img src="img/designs/design2.jpg" alt=""></div>
-                                <div class="item"><img src="img/designs/design3.jpg" alt=""></div>
-                                <div class="item"><img src="img/designs/design4.jpg" alt=""></div>
-                                <div class="item"><img src="img/designs/design5.jpg" alt=""></div>
-                                <div class="item"><img src="img/designs/design6.jpg" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
-                        <div class="space-60 hidden visible-xs"></div>
-                        <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="box-icon">
-                                <i class="lnr lnr-alarm"></i>
-                            </div>
-                            <h4>Automatic Suggestions</h4>
-                            <p>Use occasion based and trending content suggested by CRIO to increase your audience engagement.</p>
-                        </div>
-                        <div class="space-50"></div>
-                        <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="box-icon">
-                                <i class="lnr lnr-magic-wand"></i>
-                            </div>
-                            <h4>Customizable Sandbox</h4>
-                            <p>Choose from designer recommended fonts, colors and/or images to customize your content according to your preferences.</p>
-                        </div>
-                        <div class="space-50"></div>
-                        <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="box-icon">
-                                <i class="lnr lnr-layers"></i>
-                            </div>
-                            <h4>Multiple Compatibility</h4>
-                            <p>Generate content for other media platforms from an existing content with a single tap.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Content-Feature-Area-End -->
-    <!-- Subscribe-Form -->
-    <!-- TODO: Readd subscribe section, when site moves to aws -->
-    <!-- <div class="subscribe-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                    <div class="subscribe-form text-center">
-                        <h3 class="orange-color">Email Us for More Information</h3>
-                        <div class="space-20"></div>
-                        <form action="process.php" id="contact-email" class="form-horizontal" role="form" method="post">
-                            <input type="email" class="form-control" id="form-email" name="form-email" placeholder="Enter your email" required="required">
-                            <button class="bttn-white active" type="submit"><span class="lnr lnr-location"></span>Learn More</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Subscribe-Form-Area -->
+    <div class="collapse navbar-collapse" id="primary_menu">
+      <ul class="nav navbar-nav mainmenu">
+        <li class="active"><a href="#home_page">Home</a></li>
+        <li><a href="#about_page">About</a></li>
+        <li><a href="#features_page">Features</a></li>
+        <li><a href="#contact_page">Contacts</a></li>
+      </ul>
     </div>
-    <!-- Footer-Area -->
-    <footer class="footer-area" id="contact_page">
-        <div class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="page-title text-center">
-                            <h5 class="title">Contacts</h5>
-                            <h3 class="dark-color">Find Us On</h3>
-                            <div class="space-60"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-4">
-                        <a href="https://www.facebook.com/crioapp/" target="_blank"><div class="footer-box">
-                            <div class="box-icon">
-                                <span class="fa fa-facebook"></span>
-                            </div>
-                            <p>Facebook</p>
-                        </div>
-                        </a>
-                        <div class="space-30 hidden visible-xs"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <a href="https://www.instagram.com/madeoncrio/" target="_blank"><div class="footer-box">
-                            <div class="box-icon">
-                                <span class="fa fa-instagram"></span>
-                            </div>
-                            <p>Instagram</p>
-                        </div>
-                        </a>
-                        <div class="space-30 hidden visible-xs"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <a href="mailto:info@crioapp.com"><div class="footer-box">
-                            <div class="box-icon">
-                                <span class="lnr lnr-envelope"></span>
-                            </div>
-                            <p>info@crioapp.com
-                            </p>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+  </div>
+</nav>
+<!-- MainMenu-Area-End -->
+<!-- Home-Area -->
+<!-- start banner Area -->
+<header class="home-area section-padding-top" id="home_page">
+  <div class="container" >
+    <div class="row d-flex align-items-center justify-content-between">
+      <div class="home-content wow fadeInUp col-lg-6 col-md-6">
+        <h1>The smart social media marketing app you’ve been waiting for!</h1>
+        <div class="download-button d-flex flex-row justify-content-start">
+          <div class="buttons dark flex-row d-flex">
+            <i class="fa fa-play" aria-hidden="true"></i>
+            <div class="desc">
+              <a onclick="onVideoClick('img/media/Intro.mp4');"><p>
+                Watch intro<br>
+                <span>Video</span>
+              </p>
+            </a>
+          </div>
         </div>
-        <!-- Footer-Bootom -->
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-5">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This is made with <i class="lnr lnr-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></span>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <div class="space-30 hidden visible-xs"></div>
-                    </div>
-                    <div class="col-xs-12 col-md-7">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Contacts</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+    <div class="banner-img">
+      <img class="img-fluid" src="img/img-top.png">
+    </div>
+  </div>
+  <div id="video_popup" ></div>
+</div>
+</header>
+<!-- End banner Area -->
+<!-- Modal -->
+<div class="modal fade" id="formGetAccess" tabindex="-1" role="dialog" aria-labelledby="formGetAccessTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-center" role="document">
+    <div class="modal-content modal-access-form">
+      <div class="modal-header">
+        <h3 class="modal-title" id="formId">Get Access</h3>
+      </div>
+      <div class="modal-body">
+        <form id="formMailingList">
+          <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="name" class="form-control" name="Name" placeholder="John Smith" required >
+          </div>
+          <div class="form-group">
+            <label for="Email">E-mail</label>
+            <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="johnsmith@mail.com" required>
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Phone</label>
+            <input type="tel" class="form-control" name="Mobile Number" placeholder="optional">
+          </div>
+          <button id="submitForm" type="submit" class="btn btn-primary" style="background-color:#4756DF">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Home-Area-End -->
+<!-- About-Area -->
+<section class="about-area section-padding" id="about_page">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <div class="page-title text-center">
+          <div class="space-20"></div>
+          <h4 class="title">About</h4>
+          <div class="space-30"></div>
+          <h3 class="subtitle">CRIO is the assistant you always wish, when you need effective digital marketing content for your brand in a snap</h3>
+          <div class="space-20"></div>
+          <p>Each person consumes a high volume of content at each step in their online journey. CRIO leverages its smart marketing algorithm to design engaging advertisements and posts that resonate with your audience and their style. <br> <br>Keeping up with the latest design and advertising trends is extremely hectic and expensive for business owners, we at Crio are dedicated to designing suitable and meaningful content and campaigns, especially for you! All you have to do is download the app and answer basic questions about your targeted audience and leave the rest to us!</p>
         </div>
-        <!-- Footer-Bootom-End -->
-    </footer>
-    <!-- Footer-Area-End -->
-    <script>
-    function onVideoClick(theLink) {
-        document.getElementById("video_popup").innerHTML = "<video autoplay loop id=\"video_player\"><source src=\""+theLink+"\" type=\"video/mp4\"></video>";
-        document.getElementById("video_popup").style.display="block";
-    } 
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About-Area-End -->
+<!-- Feature-Area -->
+<section class="major-feature" id="features_page">
+  <div class= "feature-highlight-area section-padding">
+    <div class="container content-feature-highlight-area">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+          <div class="text-center">
+            <h2 class="title">FEATURES</h2>
+            <div class="space-60"></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="IDEATE">
+              <img src="img/icon-ideate.png" >
+              <h2>ideate</h2>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="CREATE">
+              <a href="#create"></a>
+              <img src="img/icon-create.png" >
+              <h2>create</h2>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="SHARE">
+              <img src="img/icon-share.png" >
+              <h2>share</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    function onPopClick() {
-        document.getElementById("video_popup").style.display="none";
-        document.getElementById("video_popup").innerHTML = ""; 
-    }         
+  <div class="section-padding-bottom">
+    <div class="container sub-feature">
+      <div class="row">
+        <div id="ideate">
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <h3>ideate</h3>
+            <p> We figure out what to post in order to engage your targeted audience and customer base </p>
+            <p> Suggestions: crio’s smart algorithm uses a wide database to suggest posts tailored for your industry</p>
+            <p style="color:#FFBE21">(Coming Soon….)</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <img src="img/img-ideate.png"width="550">
+          </div>
+        </div>
 
-    var element = document.getElementById("video_popup");
+        <div id="create">
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <h3>create</h3>
+            <p> Instant design suggestions with the information provided by you</p>
+            <p>Content is designed according to your audience’s taste and preference</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <img src="img/img-audience.png"width="550">
+          </div>
+        </div>
 
-    element.onclick = (function (onclick) {
-    return function(evt) {
-        // reference to event to pass argument properly
-        evt  = evt || event;
+        <div id="share">
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <h3>share</h3>
+            <p>Share your posts across all platforms automatically.</p>
+            <p>crio analyses high traffic hours to share your posts so they get higher views. all you have to do is schedule them through the app.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <img src="img/img-share.png"width="550">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Feature-Area-End -->
+<!-- Progress-Area -->
+<section class="progress-area section-padding-bottom" id="progress_page">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="page-title section-padding">
+          <h3 class="title wow fadeInUp"  style="color:#4756DF" data-wow-delay="0.2s">How it works?</h3>
+          <div class="space-10"></div>
+          <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+            <ul>
+              <li>Fill in the text you’d want to include in your posts</li>
+              <li>We use an algorithm and a database to analyse your audience and industry and design content that is effective</li>
+              <li>Our smart features model content according to the platform they’re being posted on</li>
+              <li>You can also schedule your posts and leave it all to us after this step!</li>
+              <li>Analyse high traffic hours of your audience and schedule posts accordingly</li>
+              <li>Do you lack time, design experience and a huge marketing budget? well, you’ve come to the right place!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <figure class="mobile-video">
+          <video autoplay loop muted><source src="img/media/walkthrough.mp4" type="video/mp4"></video>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Progress-Area-End -->
+  <!-- Subscribe-Form -->
+  <!-- TODO: Readd subscribe section, when site moves to aws -->
+  <div class="subscribe-area section-padding">
+    <!-- Button trigger modal -->
+    <input type="image" src="img/img-button.png"width="250"data-toggle="modal" data-target="#formGetAccess" style="display:block;margin:auto"/>
+  </div>
+  <!-- Subscribe-Form-Area -->
+  <!-- Footer-Area -->
+  <footer class="footer-area" id="contact_page">
+    <div class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="page-title text-center">
+              <h5 class="title">Contacts</h5>
+              <h3 class="dark-color">Find Us On</h3>
+              <div class="space-60"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <a href="https://www.facebook.com/crioapp/" target="_blank"><div class="footer-box">
+              <div class="box-icon">
+                <span class="fa fa-facebook"></span>
+              </div>
+              <p>Facebook</p>
+            </div>
+          </a>
+          <div class="space-30 hidden visible-xs"></div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <a href="https://www.instagram.com/madeoncrio/" target="_blank"><div class="footer-box">
+            <div class="box-icon">
+              <span class="fa fa-instagram"></span>
+            </div>
+            <p>Instagram</p>
+          </div>
+        </a>
+        <div class="space-30 hidden visible-xs"></div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <a href="mailto:contact@crio.digital"><div class="footer-box">
+          <div class="box-icon">
+            <span class="lnr lnr-envelope"></span>
+          </div>
+          <p>contact@crio.digital
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Footer-Bootom -->
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-5">
+        <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a></span>
+        <div class="space-30 hidden visible-xs"></div>
+      </div>
+      <div class="col-xs-12 col-md-7">
+        <div class="footer-menu">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer-Bootom-End -->
+</footer>
+<!-- Footer-Area-End -->
+<script>
+function onVideoClick(theLink) {
+  document.getElementById("video_popup").innerHTML = "<video autoplay loop id=\"video_player\"><source src=\""+theLink+"\" type=\"video/mp4\"></video>";
+  document.getElementById("video_popup").style.display="block";
+}
 
-        // onClick even still works in the DOM
-        if (onclick) {
-        onclick(evt);
-        }
-        // new code that will happen when you click only if you click on the background.
-        if (evt.target == element) { element.style.display="none"; } 
+function onPopClick() {
+  document.getElementById("video_popup").style.display="none";
+  document.getElementById("video_popup").innerHTML = "";
+}
+
+var element = document.getElementById("video_popup");
+
+element.onclick = (function (onclick) {
+  return function(evt) {
+    // reference to event to pass argument properly
+    evt  = evt || event;
+
+    // onClick even still works in the DOM
+    if (onclick) {
+      onclick(evt);
     }
-    })(element.onclick);
-    </script>
-    <!--Vendor-JS-->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/vendor/jquery-ui.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <!--Plugin-JS-->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/contact-form.js"></script>
-    <script src="js/scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <!--Main-active-JS-->
-    <script src="js/main.js"></script>
+    // new code that will happen when you click only if you click on the background.
+    if (evt.target == element) { element.style.display="none"; }
+  }
+})(element.onclick);
+</script>
+<!--Vendor-JS-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+var $form = $('form#formMailingList');
+$('#submitForm').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: 'https://script.google.com/macros/s/AKfycbxoc6InIGk9F1YzsoO0cVKWyMPKZ71v8m7hCphTDUoGP48uyAY6/exec',
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
+</script>
+<script src="js/vendor/jquery-ui.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<!--Plugin-JS-->
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/contact-form.js"></script>
+<script src="js/scrollUp.min.js"></script>
+<script src="js/wow.min.js"></script>
+<!--Main-active-JS-->
+<script src="js/main.js"></script>
 </body>
 
 </html>
