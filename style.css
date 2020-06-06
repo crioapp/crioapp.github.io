@@ -456,7 +456,7 @@ input:-webkit-autofill:focus {
     padding: 10px 2px;
     text-transform: capitalize;
     background: transparent;
-    font-weight: 600;
+    font-weight: 200;
     border-bottom: 2px solid transparent;
     margin: 0 15px;
 }
@@ -564,7 +564,8 @@ input:-webkit-autofill:focus {
         background-color: #fff;
         color: #000 !important;
         border-radius: 5px;
-        border-bottom-left-radius: 30px; }
+        cursor: pointer;
+       }
         @media (max-width: 991px) {
             .buttons:first-child {
             margin-bottom: 16px; } }
@@ -592,13 +593,13 @@ input:-webkit-autofill:focus {
             font-size: 20px;
             font-weight: 600;
             font-family: "Roboto", serif; }
-        .buttons.dark {
-            background-color: #000;
+        .buttons.blue {
+            background-color: #4756DF;
             color: #fff !important;
             border: 1px solid #000; }
-            .buttons.dark i {
+            .buttons.blue i {
             color: #fff; }
-            .buttons.dark a {
+            .buttons.blue a {
             color: #fff; }
             /* .buttons.dark:hover {
             background-color: #3A76FF;
@@ -616,6 +617,11 @@ input:-webkit-autofill:focus {
 
 .progress-area .desc{
     margin-top: -10px;
+}
+
+.progress-area h3{
+  color:#4756DF;
+  padding-left:20px;
 }
 
 .progress-area  video {
@@ -1085,7 +1091,7 @@ font-size:24px;}
 /*-- 17. Subscribe-Form --*/
 
 .subscribe-area {
-    background:#F5EBDD url('img/img-background.png') no-repeat center/ contain;
+    background:#F5EBDD url('img/background-subscribearea.svg') no-repeat center/contain;
 }
 
 .subscribe-form {
