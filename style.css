@@ -595,8 +595,7 @@ input:-webkit-autofill:focus {
             font-family: "Roboto", serif; }
         .buttons.blue {
             background-color: #4756DF;
-            color: #fff !important;
-            border: 1px solid #000; }
+            color: #fff !important; }
             .buttons.blue i {
             color: #fff; }
             .buttons.blue a {
@@ -688,17 +687,13 @@ input:-webkit-autofill:focus {
   font-size: 60px;
 }
 
-.sub-feature img{
-  margin-top: 60px;
-}
-
 .sub-feature p{
   margin-top: 20px;
-  line-height:1.2;
+  line-height:1.4;
   font-size: 24px;
   font-family: adobe-garamond-pro,serif;
-font-weight: 400;
-font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* FIX ME: Keep Image Centered */
@@ -1091,7 +1086,7 @@ font-size:24px;}
 /*-- 17. Subscribe-Form --*/
 
 .subscribe-area {
-    background:#F5EBDD url('img/background-subscribearea.svg') no-repeat center/contain;
+    background:#F5EBDD url('img/background-subscribearea.svg') no-repeat center / cover;
 }
 
 .subscribe-form {
