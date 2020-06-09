@@ -65,7 +65,7 @@ img {
 }
 
 p{
-  font-family: adobe-garamond-pro,serif;
+  font-family: "adobe-garamond-pro";
 font-weight: 400;
 font-style: normal;
 }
@@ -685,13 +685,15 @@ input:-webkit-autofill:focus {
   margin-top: 50px;
   font-family: "futura-pt";
   font-size: 60px;
+  padding-left:15px;
+  padding-right:15px;
 }
 
 .sub-feature p{
   margin-top: 20px;
   line-height:1.4;
   font-size: 24px;
-  font-family: adobe-garamond-pro,serif;
+  font-family: "adobe-garamond-pro";
   font-weight: 400;
   font-style: normal;
 }
@@ -704,7 +706,7 @@ input:-webkit-autofill:focus {
 /*-- Progress How it works --*/
 .progress-area li{
 margin-top: 40px;
-font-family: adobe-garamond-pro,serif;
+font-family: "adobe-garamond-pro";
 font-weight: 400;
 font-style: normal;;
 font-size:24px;}

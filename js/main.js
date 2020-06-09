@@ -64,7 +64,6 @@
             }
         }
     });
-    $(".toggole-boxs").accordion();
 
     /*-- Smoth-Scroll --*/
     $('.mainmenu-area a[href*="#"]')
@@ -111,4 +110,22 @@
             mobile: false,
         });
     });
+      $('#formMailingList').submit(function(e) {
+        e.preventDefault();
+        var jqxhr = $.ajax({
+          crossDomain: true,
+          url:'https://script.google.com/macros/s/AKfycbxoc6InIGk9F1YzsoO0cVKWyMPKZ71v8m7hCphTDUoGP48uyAY6/exec',
+          type: 'GET',
+          contentType: 'application/json; charset=utf-8',
+          dataType: 'jsonp',
+          data:$(this).serialize(),
+          // success:function(data){
+          //   alert("Successful");
+          // },
+          // error:function(xhr,status,error){
+          //   alert("Error - "+ xhr.responseText);
+          // }
+        });
+
+      })
 })(jQuery);
